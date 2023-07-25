@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body{
+  background-color: rgb(71, 74, 76);
+}
+
+/* HOMEPAGE CSS */
+.banner{
+  text-align: center;
+  font-size: 32px;
+  color: #49a2e2;
+}
+
+.playerTable{
+  text-align: right;
+  display: flex;
+  justify-content: center;
+}
+
+.playerTable td,th{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 28px;
+  color: #49a2e2;;
+}
+
+.addGameButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.addGameButton button {
+  background-color: #000000;
+  color: #49a2e2;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.addGameButton button:hover {
+  background-color: #49a2e2;
+}
+/* HOMEPAGE CSS END */
+
+/* Players CSS */
+.playerData h2{
+  text-align: center;
+}
+
+
+.playerData h4{
+  font-size: 16px;
+}
+
+.playerData h1{
+  text-align: center;
+}
+
+/* Players CSS END */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navbar CSS */
+.navbar {
+  background-color: #49a2e2;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
+.nav-menu {
+  background-color: #ffffff;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 450ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #151414;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+/* Navbar CSS END */
+
+/* Player Data CSS  */
+.directory-list, .directory-info-row .social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.directory-list li {
+  border-left: 3px solid #f1f2f7;
+  display: table-cell;
+  width: 1%;
+}
+
+.directory-info-row h1{
+  text-align: center;
+  color: #49a2e2;
+  font-size: 45px;
+}
+
+.directory-list li a {
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fff;
+  color: #49a2e2;
+  -moz-transition: all 0.2s ease-out 0s;
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.directory-info-row .thumb {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  height: auto;
+  width: 175px;
+  margin-right: 10px;
+}
+
+.directory-info-row {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.directory-info-row h4, .directory-info-row a {
+  color: #49a2e2;
+}
+
+.media-body{
+  color: #49a2e2;
+}
+
+.h4, h4 {
+  font-size: 18px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-color: #000;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dropdown{
+    background-color: #49a2e2;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Player Data CSS END */
+
+/* Big Hands CSS */
+
+h1{
+  text-align: center;
+  color: #49a2e2;
+}
+
+h2{
+  color: #49a2e2;
+  text-align: left;
+}
+/* End Big Hands CSS */
+
+/* Prev Games CSS */
+.PreviousGames h1 {
+  color: #49a2e2;
+}
+
+.PreviousGames h2{
+  color: #49a2e2;
+  padding-left: 15%;
+}
+
+.PreviousGames table {
+  color: #49a2e2;
+  padding-left: 20%;
+}
+/* End Prev Games CSS */
