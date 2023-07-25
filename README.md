@@ -17,7 +17,7 @@ If you want to replicate this project with your friends you will need to have th
   - React [download React here](https://legacy.reactjs.org/docs/getting-started.html)
   - Node JS [download Node JS here](https://nodejs.org/en/download)
   - Google Firebase [create an account here](https://firebase.google.com/)
-  - Google Firestore Database: Once you have a Firebase account, set up a Firestore Database through the Firebase console.
+  - Google Firestore Database: Once you have a Firebase account, set up a Firestore Database through the Firebase console
 
 ## Getting Started
 
